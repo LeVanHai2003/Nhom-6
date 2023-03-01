@@ -143,7 +143,7 @@ h3 {
 h4 {
 	font-size: 22px;
 }
-h5 {
+h5 {foo
 	font-size: 18px;
 }
 h6 {
@@ -4914,15 +4914,16 @@ span.required {
 		margin-bottom: 5px;
 	}
 }
-.shop-item-filter-list li a {
-	color: #aaa;
+.shop-item-filter-list h4 {
+	color:#242424;
 	font-size: 20px;
 	padding-right: 15px;
+	font-size: ;
 }
-.shop-item-filter-list li a.active, .shop-item-filter-list li a:hover {
+.shop-item-filter-list  h4.active, .shop-item-filter-list  h4:hover {
 	color: #242424;
 }
-.shop-item-filter-list li a.active {
+.shop-item-filter-list  h4.active {
   color: #242424;
 }
 .toolbar-amount {
